@@ -1,7 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 button {
   margin-left: 0.5rem;
 }
 
 .tab-content {
   margin-left: 0.5rem;
+}
+
+.toggled {
+  display: none;
+}
+
+.item {
+  width: 700px;
+}
+.title {
+  width: 100%;
+  border: none;
+}
+
+.content {
 }
